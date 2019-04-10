@@ -1,4 +1,14 @@
 package academy.learnprogramming.util;
 
-public class Mappings {
+public final class Mappings {
+
+    //==constants==
+    public static final String ITEMS = "Items";
+    public static final String ADD_ITEM = "addItem";
+    public static final String DELETE_ITEM = "deleteItem";
+    public static final String VIEW_ITEM = "viewItem";
+    // ==constructors ==
+    private Mappings() {}
+
+
 }
